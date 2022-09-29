@@ -1,0 +1,9 @@
+version: '3.9'
+
+services:
+  mongodb:
+    image: mongo:5.0
+    ports:
+      - 27010:27010
+    volumes:
+      - ~/apps/mongo:/data/db
